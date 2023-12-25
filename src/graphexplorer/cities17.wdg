@@ -1,0 +1,23 @@
+p 6 7
+
+c  This digraph consists of 6 vertices and 7 edges
+c  This is a weighted digraph: edge (i,j) and (j,i) are not 
+c  the same.
+c  cities17.wdg
+
+c vertices
+n  	1  	San Rafael
+n  	2  	Oakland
+n	3	San Francisco
+n	4	Daly City
+n 	5	San Mateo
+n	6	Redwood City
+
+c These are the weighted edges
+e	1	2	89
+e	2	3	3
+e	3	1	4
+e	3	5	12
+e 	4 	5 	19
+e	5	6	22
+e	6	4	10

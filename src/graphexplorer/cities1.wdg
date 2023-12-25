@@ -1,0 +1,50 @@
+p 15 25
+
+c  This graph consists of 15 vertices and 25 edges
+c  This is a weighted digraph: edge (i,j) and (j,i) are not 
+c  the same.
+c  cities1.wdg
+
+c vertices
+n  	1  	San Rafael
+n  	2  	Oakland
+n	3	San Francisco
+n	4	Daly City
+n 	5	San Mateo
+n	6	Redwood City
+n	7	Stanford
+n	8	Berkeley
+n	9	San Jose
+n	10	Cupertino
+n	11	Mountain View
+n	12	Palo Alto
+n	13	San Lorenzo
+n	14	Dublin
+n	15	Hayward
+
+c These are the weighted edges
+e	2	1	89
+e	2	11	3
+e	2	12	4
+e	3	2	12
+e 	3 	4 	19
+e	5	4	22
+e	6	5	11
+e	6	7	2
+e	6	13	56
+e	6	14	17
+e	6	15	23
+e	7	12	55
+e	8	7	7
+e	8	9	8
+e	8	10	78
+e	8	11	1
+e	8	12	43
+e	9	1	5
+e	11	1	90
+e	11	12	32
+e	14	2	91
+e	14	3	78
+e	15	3	2
+e	15	5	76
+e	15	14	37

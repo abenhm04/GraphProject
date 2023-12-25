@@ -1,0 +1,42 @@
+p 12 20
+
+c  This a weighted undirected graph that consists of 12 
+c  vertices and 20 edges
+c  city4.wug
+
+c vertices
+n  	1  	Albany
+n  	2  	Baker
+n	3	Covington
+n	4	Donaldsonville
+n 	5	Eunice
+n	6	Franklin
+n  	7  	Grambling
+n  	8  	Hammond
+n	9	Independence
+n	10	Jennings
+n 	11	Kenner
+n	12	Lafayette
+
+
+c These are the weighted edges
+e	1	2	3
+e	1	3	5
+e	1	4	4
+e	2	5	3
+e	2	6	6
+e	3	4	2
+e	3	7	4
+e	4	5	1
+e	4	8	5
+e	5	6	2
+e	5	9	4
+e	6	10	5
+e	7	8	3
+e	7	11	6
+e	8	9	6
+e	8	11	7
+e	9	10	3
+e	9	12	5
+e	10	12	9
+e	11	12	8

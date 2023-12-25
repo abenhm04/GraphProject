@@ -1,0 +1,27 @@
+p 8 10
+
+c  This weighted undirected graph consists of 8 vertices and 10 edges
+c  city14.wug
+c  It is a weighted bipartite graph
+
+c vertices
+n  	1  	Aelen
+n  	2  	Bad Mergentheim
+n	3	Clausthal-Zellerfeld
+n	4	Daaden
+n 	5	Esslingen
+n  	6  	Friedrichshafen
+n	7	Goppingen
+n	8	Heidelberg
+
+c These are the weighted directed edges
+e	1	2	7
+e	1	8	8
+e	2	3	3
+e	2	7	5
+e	3	4	9
+e	3	6	7
+e	4	5	10
+e   5   6   4
+e	6	7	13
+e	7	8	6
